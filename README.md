@@ -22,12 +22,22 @@ Programming 2 exam at INN, spring 2026. Team project in Unreal Engine 5, C++ and
 - **Equipment component.** Gun, knife toss and the duck you throw to distract guards
 - **Interaction system.** One sphere trace and an interface, so doors, vents and pickups all work the same way
 - **Doors.** Normal doors, sliding doors, heavy sliding doors and vent doors
-- **X-ray vision** and a procedural minimap
+- **X-ray vision** when you crouch, and a procedural minimap
 - Animation logic that blends by what you're holding, and the game loop
 
 ## Controls
 
-The keys live in the Enhanced Input mapping in `Content/MetalGears/Inputclasses`. The actions are: move, look, crouch, x-ray, interact, shoot, knife toss, throw duck and pause.
+| Key | What it does |
+| --- | --- |
+| WASD | Move |
+| Mouse | Look |
+| E | Interact (doors, scanners, pickups) |
+| Left mouse | Shoot the silenced pistol |
+| Middle mouse | Throw a knife |
+| Right mouse | Throw the distraction duckie |
+| Crouch button | Sneak quietly and see objectives, enemies and items through walls (x-ray) |
+
+There's also a pause button, and probably a jump and a whistle to lure guards over. I need to double check those keys (and the crouch key) in the input mapping in `Content/MetalGears/Inputclasses` before I write them down here.
 
 ## Open it
 
